@@ -1,3 +1,3 @@
-FROM ruby:3-apline3.14
+FROM ruby:3-alpine3.14
 
 RUN apk --no-cache add curl
