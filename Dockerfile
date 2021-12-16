@@ -1,3 +1,6 @@
-FROM ruby:3.0.2-alpine3.13
+FROM ubuntu:latest
 
-RUN apk --no-cache add curl
+ENV var1 TestValue
+ARG var2
+
+RUN env
